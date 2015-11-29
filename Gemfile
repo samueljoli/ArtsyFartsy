@@ -5,6 +5,7 @@ group "development" do
   gem 'pry-nav'
   gem 'colorize'
   gem 'awesome_print'
+  gem 'rest-client'
 end
 
 group "test" do

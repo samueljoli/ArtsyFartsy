@@ -1,3 +1,4 @@
+
 class Interface
 
     def progress_bar
@@ -42,7 +43,7 @@ class Interface
     puts "            powered by Samuel J"
     puts nil
     puts nil
-    puts "   'Help'   'Find Show'   'Exit'   'Search'"
+    puts "   Help   Find Show   Exit   Search"
     puts nil
     puts "           Please make a selection"
   end
@@ -67,11 +68,12 @@ class Interface
     puts nil
   end
 
-  def search_for_artist
+  def search_for_opportunites
     puts "\e[H\e[2J"
     puts nil
-    puts "Please search for an artist"
+    puts "Please search for an opportunity"
     puts nil
+    puts "  Internet   Residency   Grants   Fellowships"
   end
 
 end
