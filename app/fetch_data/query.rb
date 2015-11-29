@@ -1,6 +1,6 @@
 class Query
   def get
-    response = eval RestClient.get 'https://www.kimonolabs.com/api/79qenh40?apikey=4dKfqukkxERdfl9ARsoBRfqJ43zpYlW9'
+    response = eval RestClient.get 'https://www.kimonolabs.com/api/79qenh40?apikey=###'
     response = response[:results][:Opportunities]
   end
 
